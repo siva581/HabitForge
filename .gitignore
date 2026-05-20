@@ -1,11 +1,37 @@
-node_modules
-dist
-build
+# Node / build
+node_modules/
+client/node_modules/
+server/node_modules/
+dist/
+build/
+
+# Environment
 .env
-.env.local
+.env.*
+!.env.example
+
+# Logs
+logs
+*.log
+
+# OS
 .DS_Store
-coverage
-client/node_modules
-server/node_modules
-client/dist
-server/dist
+
+# Temporary
+.cache
+
+# IDE
+.vscode/
+.idea/
+
+# Coverage
+coverage/
+
+# Ignore client/server build outputs
+client/dist/
+server/dist/
+
+# Others
+.parcel-cache/
+.next/
+out/

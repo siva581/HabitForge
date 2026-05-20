@@ -1,4 +1,5 @@
 # HabitForge
+<<<<<<< HEAD
 
 HabitForge is a gamified habit tracker built as a small RPG. The point is simple: tracking habits should feel rewarding enough that people want to come back tomorrow.
 
@@ -64,3 +65,6 @@ The backend protects those features with `isPremium` checks, so the gate is not 
 - The demo account is seeded with 90 days of history, so the charts look populated right away.
 - The project uses a separate `HabitLog` collection because time-series data is much easier to work with that way.
 - If you want a production deployment, set the client API base URL and point the server at a real MongoDB instance.
+=======
+Habit tracking web application built with React, Node.js and MongoDB.
+>>>>>>> 399840f90ad5a2c53e0f1105e85136e10293bee9
