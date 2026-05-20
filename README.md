@@ -30,7 +30,7 @@ This repo is a plain MERN stack project. There is no Docker setup, no container 
 ## Run It Locally
 
 1. Start MongoDB locally.
-2. Copy [server/.env.example](server/.env.example) to `server/.env` and set your values.
+2. Copy `server/.env` and set your values.
 3. Install dependencies with `npm install` from the repo root.
 4. Seed the database with `npm run seed`.
 5. Start the app with `npm run dev`.
